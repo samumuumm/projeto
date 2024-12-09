@@ -1,0 +1,206 @@
+body {
+    background-color: wheat;
+    /* background-image: url("fundo.png"); */
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+table {
+    background-color: sandybrown;
+
+}
+
+text {
+    background-color: aliceblue;
+
+}
+
+img {
+    background-color: darkviolet;
+    border-radius: 10%;
+}
+
+h2.sombra {
+    text-shadow: 3px 2px white;
+
+}
+
+a {
+
+    text-decoration: none
+}
+
+p {
+
+}
+
+#banner {
+    padding: 15px;
+    margin-top: 7px;
+    text-align: center;
+
+
+}
+
+#menu {
+    padding: 15px;
+    margin-top: 7px;
+    text-align: center;
+
+
+}
+
+#main {
+    padding: 15px;
+    margin-top: 7px;
+    text-align: center;
+    color: white;
+
+}
+
+#container {
+    padding: 15px;
+    margin-top: 7px;
+    text-align: center;
+    color: white;
+
+}
+
+#left {
+    text-align: left;
+}
+
+#right {
+    text-align: right;
+
+}
+
+.card {
+    width: 300px;
+}
+
+.card img {
+
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+#cardholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul.horizontal {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.horizontal li {
+    float: left;
+}
+
+.horizontal li a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.horizontal li a:hover {
+    border-radius: 5px;
+    background-color: rgb(88, 74, 48);
+}
+
+ul.horizontal {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: rgb(134, 114, 77);
+    top: 0;
+    position: fixed;
+    width: 100%;
+    transition: all .5s ease-in-out;
+}
+
+ul.menu {
+    align-self: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border-radius: 5px;
+    transition: all .5s ease-in-out;
+    position: absolute;
+    background-color: rgb(134, 114, 77);
+    width: 95%;
+}
+
+ul.submenu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    border-radius: 5px;
+    background-color: rgb(88, 74, 48);
+    display: none;
+}
+
+.menu li {
+    float: left;
+    width: auto;
+    position: relative;
+    transition: all .5s ease-in-out;
+}
+
+
+.submenu li {
+    float: left;
+    width: 200px;
+    transition: all .5s ease-in-out;
+    position: relative;
+}
+
+.submenu li a {
+    display: block;
+    color: #000000;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu li:hover>ul.submenu {
+    display: block;
+}
+
+.submenu li a:hover {
+    background-color: #cccccc;
+}
+
+.menu li a {
+    display: block;
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: all .5s ease-in-out;
+}
+
+.menu li a:hover {
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: rgb(88, 74, 48);
+}
+
+#fundopreto {
+
+    background-color: #111111;
+    color: #ffffff
+}
